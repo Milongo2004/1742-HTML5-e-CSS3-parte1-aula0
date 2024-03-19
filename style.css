@@ -1,0 +1,62 @@
+body {}
+
+#banner {
+    width: 100%;
+}
+
+.principal {
+    background: #cccccc;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    border: solid;
+    border-color: blue;
+    padding: 15px;
+    margin: 25px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+em strong {
+    color: red;
+}
+
+#mision {
+    font-size: 28px;
+}
+
+.diferenciales {
+    background: white;
+    padding: 30px;
+}
+
+h3 {
+    font-style: italic;
+    font-size: 24px;
+    text-align: center;
+}
+
+.items {
+    font-style: italic;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+#imagenDiferenciales {
+    width: 50%;
+}
+
+#oferta {
+    font-size: 12px;
+}
