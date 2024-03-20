@@ -28,6 +28,11 @@
                 text-decoration: none;
             }
             
+            nav a:hover {
+                color: blue;
+                text-decoration: underline;
+            }
+            
             .productos {
                 width: 940px;
                 margin: 0 auto;
@@ -43,11 +48,25 @@
                 margin: 0 1.5%;
                 padding: 30px 20px;
                 box-sizing: border-box;
+                border: 2px solid #000000;
+                border-radius: 10px;
+            }
+            
+            .productos li:hover {
+                border-color: yellow;
+            }
+            
+            .productos li:active {
+                border-color: red;
             }
             
             .productos h2 {
                 font-size: 30px;
                 font-weight: bold;
+            }
+            
+            .productos li:hover h2 {
+                font-size: 38px;
             }
             
             .imagenes-productos {
@@ -68,4 +87,16 @@
                 font-size: 30px;
                 font-weight: bold;
                 margin-top: 10px;
+            }
+            
+            footer {
+                text-align: center;
+                background: url(imagenes/dispositivos.jpg);
+                padding: 40px;
+            }
+            
+            .copyright {
+                color: #FFFFFF;
+                font-size: 13px;
+                margin: 20px;
             }
